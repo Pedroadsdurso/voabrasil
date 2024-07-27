@@ -1,0 +1,124 @@
+<!DOCTYPE html><html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voa Brasil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            position: relative;
+        }
+        .bar {
+            width: 100%;
+            height: 30px;
+            background: url('images/barra.5b98067d.png') no-repeat center center;
+            background-size: cover;
+            position: absolute;
+            bottom: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+            z-index: 1;
+        }
+        .logo {
+            width: 150px;
+            margin: 20px auto;
+        }
+        h1 {
+            color: #003366;
+        }
+        p {
+            color: #333;
+            font-size: 18px;
+        }
+        .button {
+            display: inline-flex;
+            align-items: center;
+            padding: 10px 20px;
+            margin: 20px auto;
+            background-color: #00368d;
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 50px; /* Rounded corners */
+            transition: background-color 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+        .button img {
+            margin-right: 10px;
+        }
+        .button:hover {
+            background-color: #234f8b;
+        }
+        .link {
+            color: #003366;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 16px;
+            color: #666;
+        }
+        .maua-icon {
+            position: fixed;
+            bottom: 80px; /* Adjusted */
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            background: url('images/icon.png') no-repeat center center;
+            background-size: contain;
+        }
+        .libras-icon {
+            position: fixed;
+            top: 70px; /* Adjusted */
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            background: url('images/access_icon.svg') no-repeat center center;
+            background-size: contain;
+        }
+        @media (max-width: 768px) {
+            .maua-icon {
+                bottom: 100px; /* Higher position */
+                width: 60px; /* Larger size */
+                height: 60px; /* Larger size */
+            }
+            .libras-icon {
+                top: 800px; /* Lower position */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="images/logo-voabrasil.png" alt="Voa Brasil" class="logo">
+        <h1>Bem vindo ao Voa Brasil</h1>
+        <p>O primeiro programa de inclusão social da aviação brasileira</p>
+        <a href="login/index.html" class="button">👤 Entrar com o gov.br</a>
+        <p><a href="#" class="link">Saiba o que é o programa Voa Brasil</a></p>
+        <div class="footer">
+            <p>Mais brasileiros voando pelo país!</p>
+            <p>Explorar o Brasil não é um sonho distante!</p>
+        </div>
+    </div>
+    <div class="bar"></div>
+    <div class="libras-icon"></div>
+
+
+</body></html>
